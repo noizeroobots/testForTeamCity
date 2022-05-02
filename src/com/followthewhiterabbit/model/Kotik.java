@@ -2,7 +2,7 @@ package com.followthewhiterabbit.model;
 
 public class Kotik {
 
-    private int prettiness;
+    private int prettines;
     private String name;
     private int weight;
     private String meow;
@@ -12,7 +12,7 @@ public class Kotik {
     private int levelSatiety;
 
     public Kotik() {
-        this.prettiness = 0;
+        this.prettines = 0;
         this.name = null;
         this.weight = 0;
         this.meow = null;
@@ -20,7 +20,7 @@ public class Kotik {
     }
 
     public Kotik(int prettiness, String name, int weight, String meow) {
-        this.prettiness = prettiness;
+        this.prettines = prettiness;
         this.name = name;
         this.weight = weight;
         this.meow = meow;
@@ -31,8 +31,8 @@ public class Kotik {
         return countCreatedCats;
     }
 
-    public int getPrettiness() {
-        return prettiness;
+    public int getPrettines() {
+        return prettines;
     }
 
     public String getName() {
@@ -48,7 +48,7 @@ public class Kotik {
     }
 
     public void setKotik(int prettiness, String name, int weight, String meow) {
-        this.prettiness = prettiness;
+        this.prettines = prettiness;
         this.name = name;
         this.weight = weight;
         this.meow = meow;
